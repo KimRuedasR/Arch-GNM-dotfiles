@@ -1,0 +1,46 @@
+# Environment
+[env]
+TERM = "xterm-256color"
+
+# Window settings
+[window]
+opacity = 0.86
+dynamic_title = true
+padding = { x = 0 , y = 20 }
+dimensions = { columns = 90, lines = 24}
+
+# Font settings
+[font]
+size = 14
+normal.family = "Jetbrains Mono NL"
+
+# Colors (matching Gnome terminal)
+[colors]
+[colors.primary]
+background = "0x0a0a28"
+foreground = "0x86ffaf"
+
+[colors.normal]
+black = "0x152535"
+red = "0xff3c3c"
+green = "0x49ff6d"
+yellow = "0xffbc51"
+blue = "0x3db6f9"
+magenta = "0x8e44ad"
+cyan = "0x16a085"
+white = "0xbdc3c7"
+
+[colors.bright]
+black = "0x26384b"
+red = "0xff3c4c"
+green = "0x93ff91"
+yellow = "0xffd057"
+blue = "0x5bd7ff"
+magenta = "0x9b59b6"
+cyan = "0x205c57"
+white = "0xffffff"
+
+# Terminal cursor
+[cursor]
+style = "Block"  # or Beam for a thin cursor
+

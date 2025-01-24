@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="hibernate-status-button">
+  <schema path="/org/gnome/shell/extensions/hibernate-status-button/" id="org.gnome.shell.extensions.hibernate-status-button">
+    <key type="b" name="hibernate-works-check">
+      <default>true</default>
+    </key>
+    <key type="b" name="show-suspend">
+      <default>true</default>
+    </key>
+    <key type="b" name="show-hibernate">
+      <default>true</default>
+    </key>
+    <key type="b" name="show-hybrid-sleep">
+      <default>true</default>
+    </key>
+    <key type="b" name="show-suspend-then-hibernate">
+      <default>true</default>
+    </key>
+    <key type="b" name="show-restart">
+      <default>true</default>
+    </key>
+    <key type="b" name="show-shutdown">
+      <default>true</default>
+    </key>
+    <key type="b" name="show-custom-reboot">
+      <default>true</default>
+    </key>
+    <key type="b" name="show-hibernate-dialog">
+      <default>true</default>
+    </key>
+    <key type="b" name="show-hybrid-sleep-dialog">
+      <default>false</default>
+    </key>
+    <key type="b" name="show-suspend-then-hibernate-dialog">
+      <default>false</default>
+    </key>
+  </schema>
+</schemalist>
